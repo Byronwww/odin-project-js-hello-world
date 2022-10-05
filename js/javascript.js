@@ -15,3 +15,5 @@ function myFirstVariableMath(){
     message = x + y + " (the answer should be 5)";
     document.write(message);
 }
+
+

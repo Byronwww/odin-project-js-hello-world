@@ -12,3 +12,4 @@ Odin Project JavaScript hello world exercises
 - Using an external JavaScript file and calling functions from this
 - Assigning and calling variables
 - Using variables for some basic math functions  
+- Using javascript on a button to print the page
