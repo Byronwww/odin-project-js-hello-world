@@ -1,6 +1,8 @@
 # odin-project-js-hello-world
 Odin Project - JavaScript Hello World Exercises
 
+Taken from: https://www.theodinproject.com/lessons/foundations-fundamentals-part-1
+
 
 # Description
 Odin Project JavaScript hello world exercises
