@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src ="js/javascript.js"></script>
+    <title>Odin Project - JavaScript - Strings</title>
+</head>
+<body>
+    
+    <script>
+    const string = "The revolution will not be televised.";
+    console.log(string)
+    const badString = string;
+    console.log(badString);
+    </script>
+
+    <script>
+        const bigmouth = 'I\'ve got no right to take my place...'
+        console.log(bigmouth);
+    </script>
+
+    <script>
+        const name = "Byron";
+        const greeting = `Hello, ${name}`;
+        console.log(greeting);
+    </script>
+
+    <script>
+        const one = "Hello, ";
+        const two = "how are you?";
+        const joined = `${one}${two}`;
+        console.log(joined)
+    </script>
+
+
+    <button>Click me!</button>
+    <script>
+        const button = document.querySelector("button");       
+        
+        function greet(){
+            const name = prompt("What is your name?");
+            alert(`Hello ${name}, nice to see you!`);            
+        }
+        button.addEventListener("click", greet);
+    </script>
+
+
+
+    <script>
+        const greetingConcat = "Hello";
+        const nameConcat = "Byron Concat";
+        console.log(`${greetingConcat}, ${nameConcat}`);
+    </script>
+
+    <script>
+        const nameMix = "Front ";
+        const numberMix = 250;
+        console.log(`${nameMix}${numberMix}`);
+    </script>
+
+
+    <script>
+        const myString1 = "123";
+        const myNum1 = Number(myString1);
+        console.log(typeof myNum1);
+    </script>
+
+    <script>
+        const myNum2 = 123;
+        const myString2 = myNum2.toString();
+        console.log(typeof myString2);
+    </script>
+
+    <script>
+        const song = "My Song";
+        const myScore = 9;
+        const highestScore = 10;
+        const output = `I like the song ${song}. I gave it a score of 
+        ${
+            myScore / highestScore * 100
+        }%`;
+        console.log(output);
+    </script>
+
+</body>
+</html>
+
