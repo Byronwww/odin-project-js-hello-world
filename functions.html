@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>    
+    <script>
+        console.log("Write a function called add7 that takes one number and returns that number + 7.");
+        function add7(a){
+            b=a+7;
+            return b;
+        }
+        const result = add7(10);
+        
+        console.log(result);
+    </script>
+
+    <script>
+        console.log("Write a function called multiply that takes 2 numbers and returns their product.")
+        function multiply(a, b){
+            c = a*b;
+            return c;
+        }
+        const result2 = multiply(2, 5);
+        console.log(result2);        
+    </script>
+
+    <script>
+        console.log("Write a function called capitalize that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.")
+
+        function uppercaseFirstLetter(string){
+            const stringResult = string.charAt(0).toUpperCase()+string.slice(1).toLowerCase();
+            return stringResult;
+        }
+        const result3 = uppercaseFirstLetter("this is a LONG sentence AND only THE First Letter should be in cAPS");
+        console.log(result3);  
+    </script>
+
+    <script>
+        console.log("Write a function called lastLetter that takes a string and returns the very last letter of that string");
+        
+        function lastLetter(stringForLastLetter){
+            const lastLetter = stringForLastLetter.slice(-1);
+            return (lastLetter);
+       } 
+
+       const result4 = lastLetter("abcdef")
+       console.log(result4);
+
+
+    </script>
+</body>
+</html>
