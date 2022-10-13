@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src ="js/javascript.js"></script>
+    <title>Odin Project - JavaScript - FizzBuzz</title>
+</head>
+<body>
+    <h1>Problem Statement</h1>
+    <p>Write a program that takes a user’s input and prints the numbers from one to the number the user entered. <br />
+        However, for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. <br />
+        For numbers which are multiples of both three and five print FizzBuzz.
+    </p>
+    <h1>Pseudo Code</h1>
+    <p>
+        When a user inputs a number <br />
+        Loop from 1 to the entered number <br />
+        If the current number is divisible by 3 then print "Fizz" <br />
+        If the current number is divisible by 5 then print "Buzz" <br />
+        If the current number is divisible by 3 and 5 then print "FizzBuzz" <br />
+        Otherwise print the current number <br />
+    </p>
+
+    <script>
+        let answer = prompt("Please enter a number");
+        console.log(answer);
+
+//error handling - reject if input is not a number
+        if (isNaN (answer)){
+            console.log("Not a number!");
+        }
+
+        else{
+            //loop from 1 to the entered number
+                for(let i = 1; i <=answer; i++){
+                    if (i % 3 == 0 && i % 5 == 0){
+                        console.log(i + " - FizzBuzz")
+                    }
+                    else if (i % 3 == 0){
+                        console.log(i + " - Fizz")
+                    }
+                    else if (i % 5 == 0){
+                        console.log(i + " - Buzz")
+                    }
+                    else{
+                        console.log (i + " - This ain't fizzing or buzzing!");
+                    }
+                }
+            }
+
+    </script>
+
+
+</body>
+</html>
+
