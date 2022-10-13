@@ -16,3 +16,4 @@ Odin Project JavaScript hello world exercises
 - Using variables for some basic math functions  
 - Using javascript on a button to print the page
 - Javascript string basics
+- FizzBuzz exercise (loops, if/else statements, modulo operator, basic error handling to reject non-numerical strings)
